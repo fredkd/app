@@ -1,0 +1,9 @@
+.gallery-wrapper{
+    background-image: url(../Images/gppics10.jpg);
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

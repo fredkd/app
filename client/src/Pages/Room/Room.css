@@ -1,0 +1,113 @@
+.room-wrapper{
+    background-image: url(../Images/DSC_0106.jpg);
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.room h3{
+    color: rgb(209, 189, 13);
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 700;
+    padding: 50px;
+    text-transform: uppercase;
+    
+}
+.room h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 30px;
+    color: var(--clr-accent-400);
+}
+.room p{
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    color: var(--clr-neutral-100);
+}
+
+#box4{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.box4{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 50%);
+    padding: 30px;
+    transition: 0.5s;
+    color: #fff;
+}
+.img-side{
+    width: 50%;
+    display: block;
+    padding: 50px;
+}
+.desc-side{
+    width: 50%;
+}
+.desc-side h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--clr-accent-400);
+    margin-top: 20px;
+}
+.desc-side p{
+    font-size: 1.4rem;
+    padding: 3px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.icons{
+    margin-left: 10%;
+    align-items: center;
+    color: #222222;
+    height: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1.5em;  
+    
+}
+@media (max-width: 800px) {
+    .room h3{
+        color: rgb(209, 189, 13);
+        font-size: 1.9em;
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .room p{
+        text-align: center;
+        font-size: 1.2em;
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 30px;
+        color: var(--clr-neutral-100);
+    }
+    #box4{
+        display: grid;
+    }
+    .img-side,
+    .desc-side{
+        width: 100%;
+    }
+    .icons {
+        margin-left: 10%;
+        align-items: center;
+        color: #222222;
+        height: 50px;
+        width: 50px;
+    }
+}
